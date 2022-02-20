@@ -13,6 +13,7 @@ public class Application {
 	public void veirfyInvalidLogin() throws IOException {
 		Methods mtd = new Methods();
 		String[][] data = GenericMethods.getData("D:\\SelJan23\\TestData.xlsx", "Sheet2");
+		//Making changes to this class after R 1.0
 		
 		for(int i = 1;i<data.length;i++) {
 			switch(data[i][3]) {
